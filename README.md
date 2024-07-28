@@ -1,9 +1,9 @@
 # Leaf-Health-Diagnosis
 
-Plant 🌱 Disease 🐛 Detection 🔎
+Leaf 🌱 Health Diagnosis 
 Leaf-Health-Diagnosis is an innovative machine learning project that harnesses the power of Convolutional Neural Networks (CNN) and deep learning techniques to identify and classify diseases in leaf. The primary objective is to offer farmers and agricultural experts a valuable tool for swift plant health diagnosis, facilitating timely intervention and minimizing the risk of crop loss.
 
-streamlit diploy link = 
+streamlit diploy link = https://prasangiw.streamlit.app/
 
 Project Structure 📂
 The project comprises essential components:
