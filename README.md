@@ -19,7 +19,7 @@ To run the project locally, follow these steps:
 git clone https://github.com/PrasangiW/Leaf-Health-Diagnosis.git
 
 2.Navigate to the project directory:
-cd Plant-Disease-Detection
+cd Leaf-Health-Diagnosis
 
 3.Install the required packages:
 pip install -r requirements.txt
