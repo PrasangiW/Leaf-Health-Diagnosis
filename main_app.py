@@ -7,7 +7,11 @@ import time
 import plotly.graph_objects as go
 
 # Loading the Model
-model = load_model('plant_disease_model.h5')
+try:
+    model = load_model('plant_disease_model.h5')
+except Exception as e:
+    st.error(f"Error loading model: {e}")
+    st.stop()
 
 # Name of Classes
 CLASS_NAMES = ('Tomato-Bacterial_spot', 'Potato-Barly blight', 'Corn-Common_rust')
@@ -115,7 +119,6 @@ with st.container():
                     opencv_image = cv2.imdecode(file_bytes, 1)
                     
                     # Display the image
-                    
                     st.image(opencv_image, channels="BGR", caption='Uploaded Image', use_column_width=True)
                     st.markdown('</div>', unsafe_allow_html=True)
                     
